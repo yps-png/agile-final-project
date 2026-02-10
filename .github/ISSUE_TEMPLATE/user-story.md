@@ -7,6 +7,17 @@ I need to...
 So that...
 
 ## Acceptance Criteria
-- [ ] Criterion 1  
-- [ ] Criterion 2  
-- [ ] Criterion 3  
+Scenario: [Describe the main successful scenario]
+  Given [initial context/precondition]
+  When [user action/trigger]
+  Then [expected outcome/result]
+
+Scenario: [Describe an alternative scenario]
+  Given [initial context/precondition]
+  When [user action/trigger]
+  Then [expected outcome/result]
+
+Scenario: [Describe an error/edge case scenario]
+  Given [initial context/precondition]
+  When [user action/trigger]
+  Then [expected outcome/result]
